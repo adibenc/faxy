@@ -1,0 +1,24 @@
+# python
+*.pyc
+*__pycache__
+.pytest_cache
+venv
+venv*
+# environment
+.env
+.env.*
+!.env.testing
+# npm
+node_modules
+package-lock.json
+
+.ipynb_checkpoints
+
+.vscode
+**/*.DS_Store
+
+# compiled assets
+storage/compiled
+[Dd]ummy*
+[Dd]my*
+baseestimator.py
